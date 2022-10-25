@@ -1,0 +1,13 @@
+curl --location --request POST 'http://localhost:3000/uber/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "pierre@palenca.com",
+    "password": "MyPwdChingon123"
+}'
+
+curl --location --request GET 'http://localhost:3000/uber/profile/cTV0aWFuQ2NqaURGRE82UmZXNVBpdTRxakx3V1F5' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "pierre@palenca.com",
+    "password": "MyPwdChingon123"
+}'
